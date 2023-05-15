@@ -1,0 +1,53 @@
+.fab {
+    font-weight: 600;
+    font-size: 20px;
+}
+#contact{
+    font-weight:600
+}
+#bg{
+    background-image: url('images/bg_2.jpg');
+}
+#myTab{
+    margin-top: 15px;
+}
+#myTabContent{
+    text-align-last: left;
+}
+#search{
+    text-align: start;
+}
+#triptype{
+    text-align-last: left;
+}
+#fromdate{
+    text-align-last: left;
+}
+#todate{
+    text-align-last: left;
+}
+#destination{
+    text-align-last: left;
+}
+#F_T{
+    text-align-last: left;
+}
+#pax{
+    text-align-last: left;
+}
+#children{
+    text-align-last: left;
+}
+#seniors{
+    text-align-last: left;
+}
+#home{
+    text-align-last: left;
+}
+#footer{
+    margin-top: 20px;
+    background-color: azure;
+}
+#copyright{
+    font-size: 14px;font-weight: bold;
+}

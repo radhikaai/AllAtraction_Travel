@@ -1,0 +1,292 @@
+.fab {
+    font-weight: 600;
+    font-size: 20px;
+}
+#contact{
+    font-weight:600
+}
+#bg{
+    background-image: url('images/bg_2.jpg');
+}
+.h_text{
+    display: flex;justify-content: center;font-size: 25px; margin-top: 40px;
+}
+.textNH{
+    font-size: 50px;font-weight: 600;
+}
+.textNH1{
+    font-size: 50px;
+}
+#text_size{
+    padding-top: 200px; padding-left: 20px;
+}
+#ts{
+    padding-top: 180px; padding-left: 20px;
+}
+#img1{
+    background-image: url(home_images/1.jpg); height: 250px; width: 250px;
+}
+#t1{
+    padding-top: 200px; padding-left: 20px;
+}
+#img2{
+    background-image: url(home_images/2.jpg);  height: 250px; width: 250px;
+}
+#t2{
+    padding-top: 200px; padding-left: 20px;
+}
+#img3{
+    background-image: url(home_images/3.jpg); height: 250px; width: 250px;
+}
+#t3{
+    padding-top: 200px; padding-left: 20px;
+}
+#img4{
+    background-image: url(home_images/4.jpg); height: 250px; width: 250px;
+}
+#t4{
+    padding-top: 180px; padding-left: 20px;
+}
+#img7{
+    background-image: url(home_images/7.png);
+}
+#t5{
+    font-size: smaller;
+}
+#img8{
+    background-image: url(home_images/8.jpg);
+}
+#img9{
+    background-image: url(home_images/9.jpg);
+}
+#img10{
+    background-image: url(home_images/10.jpg);
+}
+#img11{
+    background-image: url(home_images/11.jpg);
+}
+#img12{
+    background-image: url(home_images/12.jpg);
+}
+#img14{
+    background-image: url(home_images/14.jpg); height: 350px; width: 275px;
+}
+#t14{
+    padding-top: 300px; padding-left: 20px;
+}
+#img15{
+    background-image: url(home_images/15.jpg); height: 350px; width: 275px;
+}
+#t15{
+    padding-top: 300px; padding-left: 20px;
+}
+#img16{
+    background-image: url(home_images/16.jpg); height: 350px; width: 275px;
+}
+#t16{
+    padding-top: 300px; padding-left: 20px;
+}
+#img17{
+    background-image: url(home_images/17.jpg); height: 350px; width: 275px;
+}
+#t17{
+    padding-top: 300px; padding-left: 20px;
+}
+#img21{
+    height: 350; width: 350px;
+}
+#t21{
+    font-size: smaller;
+}
+#img20{
+    height: 350; width: 350px;
+}
+#t20{
+    font-size: smaller;
+}
+#img22{
+    height: 350; width: 350px;
+}
+#t22{
+    font-size: smaller;
+}
+#img32{
+    height: 350; width: 350px;
+}
+#t32{
+    font-size: smaller;
+}
+#img31{
+    height: 350; width: 350px;
+}
+#t31{
+    font-size: smaller;
+}
+#img30{
+    height: 350; width: 350px;
+}
+#t30{
+    font-size: smaller;
+}
+#img_a{
+    height: 350; width: 350px;
+}
+#img_b{
+    height: 350; width: 350px;
+}
+#img_c{
+    height: 350; width: 350px;
+}
+#img_d{height: 350; width: 350px;
+}
+#img_m{
+    height: 350; width: 350px;
+}
+#img_n{
+    height: 350; width: 350px;
+}
+#img_o{
+    height: 350; width: 350px;
+}
+#img_p{
+    height: 350; width: 350px;
+}
+#text_a{
+    font-size: smaller;
+}
+#text_b{
+    font-size: smaller;
+}
+#text_c{
+    font-size: smaller;
+}
+#text_d{
+    font-size: smaller;
+}
+#text_m{
+    font-size: smaller;
+}
+#text_n{
+    font-size: smaller;
+}
+#text_o{
+    font-size: smaller;
+}
+#text_p{
+    font-size: smaller;
+}
+#bg_footer{
+    background-color: azure;
+}
+#imgf{
+    height: 194px;
+    width: 350px;
+
+}
+#imgh{
+    height: 194px;
+    width: 350px;
+}
+#th{
+    font-size: smaller;
+}
+#imgi{
+    height: 194px;
+    width: 350px;
+}
+#ti{
+    font-size: smaller;
+}
+#tf{
+    font-size: smaller;
+}
+#imgg{
+    height: 194; width: 350px;
+}
+#tg{
+    font-size: smaller;
+}
+
+.logoClr{
+    color: #DD54E8;
+}
+
+	.section_padding_top {
+    padding-top: 30px;
+}
+section {
+    position: relative;
+}
+ul.tour_type_list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.tour_type_list li {
+    margin: 0 5px 10px 0;
+    background-color: #343a40;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+/* .img img {
+    transition: transform .2s;
+  }
+  
+  .img:hover img {
+    -ms-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15); 
+  } */
+
+
+.img{
+    transition: 0.2s;
+    overflow: hidden;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+}  
+
+.img:hover{
+    transform: scale(1.1)
+}
+
+
+/* .img{
+    overflow: hidden;
+}
+
+img:hover img{
+    transform: scale(1.5);
+}
+
+.is-hover{
+    transform: translateY(-12px);
+} */
+
+
+/* .img {
+    overflow: hidden;
+  }
+  
+  .img img {
+        transition: all 2s ease-in-out;
+  }
+  
+  .img:hover img {
+        transform: scale(2,2);
+      cursor: pointer;
+  } */
+
+ 
+

@@ -1,0 +1,52 @@
+#bg{
+    background-image: url('images/bg_2.jpg');
+}
+
+#vc{
+    text-align-last: left;
+}
+
+#natinality{
+    text-align-last: left;
+}
+
+#residency{
+    text-align-last: left;
+}
+
+#search{
+    text-align: start;
+}
+
+.textNH1{
+    display: flex;justify-content: center;font-size: 25px; padding-top: 60px;
+}
+
+.textNH{
+    font-size: 50px;font-weight: 600;
+}
+
+.textNH2{
+    font-size: 50px;
+}
+#singapore{
+    background-image: url(images/place-1.jpg);
+}
+#canada{
+    background-image: url(images/place-2.jpg);
+}
+#thailand{
+    background-image: url(images/place-3.jpg);
+}
+#australia{
+    background-image: url(images/place-4.jpg);
+}
+#footer{
+    background-color: azure;
+}
+#copyright{
+    background-color:white;
+}
+#c_n{
+    font-weight:600
+}
