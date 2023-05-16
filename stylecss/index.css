@@ -8,7 +8,7 @@
     font-weight:600
 }
 #bg{
-    background-image: url('images/bg_2.jpg');
+    background-image: url('../images/bg_2.jpg');
 }
 .h_text{
     display: flex;justify-content: center;font-size: 25px; margin-top: 40px;
@@ -26,70 +26,70 @@
     padding-top: 180px; padding-left: 20px;
 }
 #img1{
-    background-image: url(home_images/1.jpg); height: 250px; width: 250px;
+    background-image: url(../home_images/1.jpg); height: 250px; width: 250px;
 }
 #t1{
     padding-top: 200px; padding-left: 20px;
 }
 #img2{
-    background-image: url(home_images/2.jpg);  height: 250px; width: 250px;
+    background-image: url(../home_images/2.jpg);  height: 250px; width: 250px;
 }
 #t2{
     padding-top: 200px; padding-left: 20px;
 }
 #img3{
-    background-image: url(home_images/3.jpg); height: 250px; width: 250px;
+    background-image: url(../home_images/3.jpg); height: 250px; width: 250px;
 }
 #t3{
     padding-top: 200px; padding-left: 20px;
 }
 #img4{
-    background-image: url(home_images/4.jpg); height: 250px; width: 250px;
+    background-image: url(../home_images/4.jpg); height: 250px; width: 250px;
 }
 #t4{
     padding-top: 180px; padding-left: 20px;
 }
 #img7{
-    background-image: url(home_images/7.png);
+    background-image: url(../home_images/7.png);
 }
 #t5{
     font-size: smaller;
 }
 #img8{
-    background-image: url(home_images/8.jpg);
+    background-image: url(../home_images/8.jpg);
 }
 #img9{
-    background-image: url(home_images/9.jpg);
+    background-image: url(../home_images/9.jpg);
 }
 #img10{
-    background-image: url(home_images/10.jpg);
+    background-image: url(../home_images/10.jpg);
 }
 #img11{
-    background-image: url(home_images/11.jpg);
+    background-image: url(../home_images/11.jpg);
 }
 #img12{
-    background-image: url(home_images/12.jpg);
+    background-image: url(../home_images/12.jpg);
 }
 #img14{
-    background-image: url(home_images/14.jpg); height: 350px; width: 275px;
+    background-image: url(../home_images/14.jpg); height: 350px; width: 275px;
 }
 #t14{
     padding-top: 300px; padding-left: 20px;
 }
 #img15{
-    background-image: url(home_images/15.jpg); height: 350px; width: 275px;
+    background-image: url(../home_images/15.jpg); height: 350px; width: 275px;
 }
 #t15{
     padding-top: 300px; padding-left: 20px;
 }
 #img16{
-    background-image: url(home_images/16.jpg); height: 350px; width: 275px;
+    background-image: url(../home_images/16.jpg); height: 350px; width: 275px;
 }
 #t16{
     padding-top: 300px; padding-left: 20px;
 }
 #img17{
-    background-image: url(home_images/17.jpg); height: 350px; width: 275px;
+    background-image: url(../home_images/17.jpg); height: 350px; width: 275px;
 }
 #t17{
     padding-top: 300px; padding-left: 20px;

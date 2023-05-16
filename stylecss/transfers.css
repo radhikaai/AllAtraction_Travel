@@ -6,7 +6,7 @@
     font-weight:600
 }
 #bg_image{
-    background-image: url('images/bg_2.jpg');
+    background-image: url('../images/bg_2.jpg');
 }
 #from_zone{
     text-align-last: left;

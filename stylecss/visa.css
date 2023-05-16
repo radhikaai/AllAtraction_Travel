@@ -1,5 +1,5 @@
 #bg{
-    background-image: url('images/bg_2.jpg');
+    background-image: url('../images/bg_2.jpg');
 }
 
 #vc{
@@ -30,16 +30,16 @@
     font-size: 50px;
 }
 #singapore{
-    background-image: url(images/place-1.jpg);
+    background-image: url(../images/place-1.jpg);
 }
 #canada{
-    background-image: url(images/place-2.jpg);
+    background-image: url(../images/place-2.jpg);
 }
 #thailand{
-    background-image: url(images/place-3.jpg);
+    background-image: url(../images/place-3.jpg);
 }
 #australia{
-    background-image: url(images/place-4.jpg);
+    background-image: url(../images/place-4.jpg);
 }
 #footer{
     background-color: azure;
