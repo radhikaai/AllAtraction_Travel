@@ -1,0 +1,31 @@
+.fab {
+    font-weight: 600;
+    font-size: 20px;
+}
+#contact{
+    font-weight:600
+}
+#bg_image{
+    background-image: url('images/bg_2.jpg');
+}
+#from_zone{
+    text-align-last: left;
+}
+#to_zone{
+    text-align-last: left;
+}
+#todate{
+    text-align-last: left;
+}
+#Search_button{
+    text-align: start;
+}
+#textNH1{
+    font-weight: bold
+}
+.textNH{
+    font-size: 50px;font-weight: 600;
+}
+#textNH2{
+    font-size: 25px; font-weight: bold;
+}
