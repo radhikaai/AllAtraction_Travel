@@ -1,0 +1,30 @@
+#FullDescriptionHT p,
+    #FullDescriptionHT span,
+    #FullDescriptionHT li,
+    #FullDescriptionHT div {
+        color: black !important;
+        margin: 10px 0px;
+        font-size: 13px;
+    }
+
+    #FullDescriptionHT li {
+        margin: 10px 20px;
+        list-style-type: disc;
+    }
+
+    .button-set {
+        display: flex;
+        background: #ffffff;
+        padding: 5px;
+        justify-content: left;
+        border: none;
+    }
+
+    #border{
+        border: 1px solid #000;
+    }
+
+    #bg{
+        background: #f6f6f6;
+    }
+    
