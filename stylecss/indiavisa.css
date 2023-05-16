@@ -27,4 +27,7 @@
     #bg{
         background: #f6f6f6;
     }
-    
+    #indiaflag{
+        min-width: 255px;min-height: 170px;cursor:pointer;
+        min-height: 170px;width: 100%;object-fit: fill; 
+    }
