@@ -1,0 +1,34 @@
+.p-2{
+    width: 250px;
+    height: 200px;
+    padding: 0.5px !important;
+    margin-left: 0px;
+}
+#p1{
+    font-size: smaller;
+}
+#t1{
+    font-size: smaller;
+}
+#t2{
+    font-size: smaller;
+} 
+#p3{
+    margin-bottom: 1px;
+}
+#p2{
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+.top_form_search_button{
+    padding-left: 20px;
+    margin-top: 38px;
+    width: 30px;
+
+}
+#pax{
+    font-size: 15px;
+}
+.list_search_aria{
+    background-color: light;
+}

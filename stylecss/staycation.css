@@ -1,9 +1,6 @@
 #cont{
     font-weight:600;
 }
-#img{
-    width: 200px;height: 170px; object-fit: cover;
-}
 .col-4{
     margin-left: 50px;
     color:black; font-size: 16px;
@@ -29,9 +26,35 @@
 #p3{
     text-align:center; font-size: 13px;
 }
-#INR{
-    font-size: 16px; color: black; text-align: center;
-}
 #footer{
     background-color: azure;
+}
+#img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+#p1{
+    font-size: smaller;
+}
+#t1{
+    font-size: smaller;
+}
+#t2{
+    font-size: smaller;
+} 
+
+#p2{
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+#p3{
+    text-align: START;
+    font-size: 13px;
+
+}
+#INR{
+    font-size: 16px;
+    color: black;
+    text-align: START;
 }

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+    <link rel="stylesheet" href="stylecss/activitydetails.css">
+
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand text-danger" href="index.html"><span><img src="images/logo1.png" alt=""></span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav text-white">
+	          <li class="nav-item"><a href="index.html" class="nav-link  text-dark"><i class="fa-solid fa-home"></i>Home</a></li>
+	          <li class="nav-item active"><a href="deals.html" class="nav-link text-dark"><i class="fa-solid fa-tags"></i>&nbsp;Deals</a></li>
+	          <li class="nav-item"><a href="cart1.html" class="nav-link text-dark"><i class="fa-solid fa-shopping-cart"></i>&nbsp;Cart</a></li>
+			  <li class="nav-item"><a href="registration.html" class="nav-link text-dark"><i class="fa-solid fa-sign-in"></i>&nbsp;Login/Sign-up</a></li>
+			  <li class="nav-item"><a href="" class="nav-link text-dark"><i class="fa-brands fa-whatsapp" style="font-weight:600"></i>&nbsp;+971 56 507 1346</a></li>
+	          <!-- <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> 
+	          <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li>-->
+
+			  <li class="country_price ">
+				<!-- <div class="dropdown"> -->
+					<li class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle mt-3 text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  INR
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					  <a class="dropdown-item" href="#">INR</a>
+					  <a class="dropdown-item" href="#">AED</a>
+					  <a class="dropdown-item" href="#">USD</a>
+					  <a class="dropdown-item" href="#">EUR</a>
+					  <a class="dropdown-item" href="#">GBP</a>
+					  <a class="dropdown-item" href="#">AUD</a>
+					  <a class="dropdown-item" href="#">MYR</a>
+					  <a class="dropdown-item" href="#">OMR</a>
+					  <a class="dropdown-item" href="#">SAR</a>
+					  <a class="dropdown-item" href="#">SGD</a>
+					  <a class="dropdown-item" href="#">THB</a>
+					  <a class="dropdown-item" href="#">ZAR</a>
+					</div>
+				  </div>	
+			</li>
+
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    <br><br><br><br>
+
+    <section class="list_search_aria">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="theme_search_form_area">
+                        <div class="tab-pane fade show active" id="flights" role="tabpanel"
+                            aria-labelledby="flights-tab">
+                            <div class="tab-content" id="myTabContent1">
+                                <div class="tab-pane fade show active" id="oneway_flight" role="tabpanel"
+                                    aria-labelledby="oneway-tab"> -->
+
+                                    <div class="theme_search_form_area slider_serc">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="tour_search_form">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <div class="flight_Search_boxed">
+                                                                <p>Destination, Activity, Type</p>
+                                                                <input type="text" placeholder="Where are you going?"
+                                                                    id="text-search">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <div class="form_search_date">
+                                                                <div class="flight_Search_boxed date_flex_area">
+                                                                    <div class="Journey_date">
+                                                                        <p>Travel date</p>
+                                                                        <input type="text" class="input-field"
+                                                                            id="fromdate" placeholder="Select Date"
+                                                                            readonly />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <label class="form-label">Pax</label>
+                                                            <input type="number" id="pax" class="form-control"
+                                                                placeholder="Adults">
+                                                        </div>
+                                                        <div class="col-md-3 slider_serch_btn">
+                                                            <div class="top_form_search_button">
+                                                                <button
+                                                                    class="btn-danger btn_theme btn-lg">Search</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+            </div>
+        </div>
+        <br><br>
+    </section>
+   
+                    <div class="container">
+                        <div class="row justify-content-start">
+
+                            <nav class="navbar navbar-expand-lg bg-body-danger">
+                                <!-- <div class="container-fluid"> -->
+                                    <!-- <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+                                    <div class="collapse navbar-collapse" id="navbarNav">
+                                        <ul class="navbar-nav border">
+                                            <li class="nav-item">
+                                                <a class="nav-link active border" aria-current="page" href="#"> <span
+                                                        class=""><span class="nav-list-item">Sort by:</span></span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link border" href="#"><span class=""><span
+                                                            class="nav-list-item">Price Low To
+                                                            High</span></span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link border" href="#"><span class=""><span
+                                                            class="nav-list-item">Price High to
+                                                            Low</span></span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link border" href="#"><span class=""><span
+                                                            class="nav-list-item">Name A to
+                                                            Z</span></span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link border" href="#"><span class=""><span
+                                                            class="nav-list-item">Name Z to
+                                                            A</span></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- body content -->
+                    <div class="container">
+                        <div class="col-lg-12">
+                            <div class="row shadow-md">
+                                <div class="col-md-3">
+                                    <img src="home_images/activity.webp" class="p-2 rounded-15px" id="img">
+                                </div>
+                                <div class="col-md-3">
+                                    <h5 mt-2><a class="text-dark" href="#">HATTA WADI ACTIVITIES</a></h5>
+                                    <a href="#" class="text-dark" id="p1"><i
+                                            class="fa-solid fa-location-dot text-danger"></i>&nbsp;Dubai</a>&nbsp;
+                                    <a href="#" class="text-dark" id="t1"><i
+                                            class="fa-solid fa-person-running text-danger"></i>&nbsp;Weekend
+                                        Staycation</a>&nbsp;
+                                    <a href="#" class="text-dark" id="t2"><i
+                                            class="fa-solid fa-circle-info text-danger"></i>&nbsp; More Information</a>
+                                    <p class="text-dark" id="t3"></p>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a class="addToWishList text-danger" id="border"><i class="fa-regular fa-heart text-danger"></i>&nbsp;Add To Wishlist</a>
+                                    <p class="text-success" id="p2"> Free cancellation Prior 96 Hours</p>
+                                    <p class="text-dark" id="p3">Starts from </p>
+                                    <p id="INR"> INR 37589.39 </p>
+                                    <button class="btn-danger"> Show Options&nbsp;<i class="fas fa-chevron-down"></i></button>
+                                </div>
+                                <div class="col-lg-3 filterbox">
+                                    <div class="accordion Filteration">
+                                        <div class="card">
+                                            <div class="collapse show" id="priceFilter">
+                                                <div class="card card-body">
+                                                    <input type="text" class="form-control" placeholder="Search By Activity Name...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                        
+
+                                    <div class="card">
+                                        <div class="card-header bg-danger" id="PriceDiv">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link text-white" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#priceFilter" aria-expanded="false" aria-controls="priceFilter">
+                                                    Price Filter
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div class="collapse show" id="priceFilter">
+                                            <div class="card card-body">
+                                                <div class="">
+                                                    <div id="price-range"
+                                                        class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+                                                        aria-disabled="false">
+                                                    </div>
+                                                    <div data-role="main" class="ui-content">
+                                                        <form method="post" action="/action_page_post.php">
+                                                          <div data-role="rangeslider">
+                                                            <label for="price-min">INR</label>
+                                                            <input type="range" name="price-min" id="price-min" value="0.00" min="0" max="207881.00">
+                                                            <label for="price-max">INR</label>
+                                                          </div>
+                                                        </form>  
+                                                    <div class="clearer"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-danger" id="headingTwo">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link text-white" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                                    Activity Type Filter
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div class="collapse show" id="collapseExample1">
+                                            <div class="card card-body">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <label class="form-check-label">
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-danger" id="headingThree">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link text-white" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                                                    Cancellation Filter
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div class="collapse show" id="collapseExample3">
+                                            <div class="card card-body">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <label class="form-check-label">Free Cancelation</label>
+                                                    <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <label class="form-check-label">Non Refundable</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+       
+ <!-- Planing Next Holidays -->
+
+ <section id="cta_area">
+        <div class="container-fluid h-180px mt-5" id="footer">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="cta_left">
+                        <div class="cta_content">
+                            <h3 class="text-danger">Planning your next holidays ?</h3>
+                            <h5>Subscribe to our newsletter. Get the latest travel trends &amp; deals!</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="cat_form">
+                        <form id="cta_form_wrappper">
+                            <div class="input-group"><input type="text" class="form-control" id="newemail"
+                                    placeholder="Enter your mail address"><button
+                                    class="btn btn_theme1 btn_md bg-danger">Subscribe</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer start -->
+    <footer class="bg-danger text-lg-start text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-white">Top Destinations</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Abu Dhabi</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Dubai</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Goa</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Singapore</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Oman</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Paris</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0 text-white">Most Demanded Visa</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Schengen</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">UAE Visa(Dubai)</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">South Africa Visa</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">India Visa</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Turkey Visa</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Singapore</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-white">Useful Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0 text-white">Connect With Us</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">121-1211,Regal Tower</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Business Bay Dubai,U.A.E.</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">+971 56 507 1346</a>
+                        </li>
+                        <!-- <li>
+			  <a href="#!" class="text-dark">Link 4</a>
+			</li> -->
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-lg-start p-3 pb-2" id="copyright" style="background-color:white;">
+
+            <a class="text-dark" href="#">Copy Right @ 2023 . All Rights Reserved. Made with ♥ by Tech Binary</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer END -->
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+
+
+    <!--End Footer Section -->
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(function () {
+            $(".datepicker").datepicker();
+        });
+    </script>
+
+</body>
+
+</html>
